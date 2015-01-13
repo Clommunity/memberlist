@@ -48,7 +48,7 @@ const (
 )
 
 const (
-	MetaMaxSize            = 512 // Maximum size for node meta data
+	MetaMaxSize            = 2048 // Maximum size for node meta data
 	compoundHeaderOverhead = 2   // Assumed header overhead
 	compoundOverhead       = 2   // Assumed overhead per entry in compoundHeader
 	udpBufSize             = 65536
